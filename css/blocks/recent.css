@@ -1,0 +1,151 @@
+.recent-wrapper {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding-top: 210px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.recent-text__title {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+}
+
+.recent-text__discription, .recent-text__discription2 {
+  font-size: 16px;
+  font-style: italic;
+  color: #bababa;
+  width: 270px;
+  line-height: 1.7;
+  margin-top: 50px;
+}
+
+.recent-text__name, .recent-text__name2 {
+  font-weight: 600;
+  padding-top: 20px;
+}
+
+.recent-bvideo__img {
+  display: block;
+}
+
+.recent-svideo__img {
+  display: block;
+}
+
+.svideo-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.bot-svideo {
+  padding-top: 55px;
+}
+
+
+/* media queries */
+
+@media only screen and (max-width: 1215px) {
+  .recent-wrapper {
+    display: block;
+  }
+
+  .recent-text__title {
+    text-align: center;
+  }
+
+  .recent-text__cit {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .recent-bvideo__img {
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+  }
+
+  .svideo-title {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .recent-svideo__videos {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .recent-svideo1__img {
+    border-radius: 20px;
+  }
+
+  .recent-svideo2__img {
+    padding: 0;
+    border-radius: 20px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .recent-bvideo__img {
+    width: 467px;
+    height: 286px;
+  }
+}
+
+@media only screen and (max-width: 607px) {
+  .recent-text__cit {
+    display: block;
+    justify-content: space-around;
+  }
+
+  .recent-text__discription {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 37px;
+  }
+
+  .recent-text__discription2 {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 37px;
+  }
+
+
+  .recent-text__name {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 37px;
+  }
+
+
+
+  .recent-text__name2 {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 37px;
+  }
+
+  .recent-svideo__videos {
+    display: block;
+  }
+
+  .recent-svideo1__img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .recent-svideo2__img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  .recent-bvideo__img {
+    width: 357px;
+    height: 176px;
+  }
+}

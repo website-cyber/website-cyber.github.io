@@ -1,0 +1,62 @@
+.popular-wrapper {
+  max-width: 1057px;
+  margin: 0 auto;
+  padding-top: 230px;
+}
+
+.popular-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 90px;
+}
+
+.popular-instractors {
+  display: flex;
+  justify-content: space-between;
+}
+
+.popular-instractors__list {
+
+}
+
+.popular-instractors__list__name {
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 35px;
+}
+
+.popular-instractors__list__students {
+  font-size: 15px;
+  margin-top: 15px;
+  text-align: center;
+  color: #2ab738;
+}
+
+
+/* media queries */
+
+@media only screen and (max-width: 940px) {
+  .popular-instractors {
+    display: block;
+  }
+
+  .popular-instractors__list__img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 55px;
+  }
+}
+
+@media only screen and (max-width: 629px) {
+  .popular-title {
+    font-size: 50px;
+  }
+}
+
+@media only screen and (max-width: 387px) {
+  .popular-title {
+    font-size: 37px;
+  }
+}

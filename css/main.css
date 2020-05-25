@@ -1,0 +1,24 @@
+/*   css reset */
+
+@import "blocks/base.css";
+
+/* First Hero */
+
+@import "blocks/header.css";
+
+
+/* Recent Section */
+@import "blocks/recent.css";
+
+
+/* Popular section */
+@import "blocks/popular.css";
+
+/* Blog section */
+@import "blocks/blog.css";
+
+/* intrested section */
+@import "blocks/intrested.css";
+
+/* footer section */
+@import "blocks/footer.css";
